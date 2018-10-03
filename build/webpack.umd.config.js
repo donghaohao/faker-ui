@@ -12,7 +12,7 @@ module.exports = merge({
   output: {
     path: path.resolve(process.cwd(), './dist'),
     publicPath: '/dist/',
-    filename: 'hlib.js',
+    filename: 'index.js',
     libraryTarget: 'umd',
     library: 'Hlib',
     umdNamedDefine: true,

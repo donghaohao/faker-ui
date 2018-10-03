@@ -1,8 +1,13 @@
 {
-  "name": "faker",
-  "version": "1.0.0",
+  "name": "faker-ui",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/hlib-common.js",
+  "files": [
+    "dist",
+    "src",
+    "packages"
+  ],
   "scripts": {
     "build:commom": "webpack --config build/webpack.common.config.js",
     "build:umd": "webpack --config build/webpack.umd.config.js",
@@ -14,7 +19,12 @@
     "lint:fix": "eslint --fix src/ packages/ build/",
     "clean": "rimraf dist"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:donghaohao/faker-ui.git"
+  },
+  "homepage": "https://github.com/donghaohao/faker-ui",
+  "author": "donghao",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {

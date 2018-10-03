@@ -7,6 +7,7 @@ module.exports = {
       src: path.resolve(__dirname, '../src'),
       packages: path.resolve(__dirname, '../packages'),
       examples: path.resolve(__dirname, '../examples'),
+      'h-ui': path.resolve(__dirname, '../'),
     },
     modules: ['node_modules'],
   },
