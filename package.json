@@ -1,6 +1,6 @@
 {
   "name": "faker-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/hlib-common.js",
   "files": [
@@ -17,7 +17,8 @@
     "dev": "node build/dev.js",
     "lint": "eslint src/ packages/ build/",
     "lint:fix": "eslint --fix src/ packages/ build/",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "pub": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
