@@ -1,7 +1,4 @@
 {
   "button": "./packages/button/index.js",
-  "alert": "./packages/alert/index.js",
-  "test": "./packages/test/index.js",
-  "test1": "./packages/test1/index.js",
-  "ka": "./packages/ka/index.js"
+  "alert": "./packages/alert/index.js"
 }

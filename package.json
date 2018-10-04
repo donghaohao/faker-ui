@@ -12,7 +12,7 @@
     "build:commom": "webpack --config build/webpack.common.config.js",
     "build:umd": "webpack --config build/webpack.umd.config.js",
     "build:comp": "webpack --config build/webpack.components.config.js",
-    "build": "npm run clean && npm run build:commom && npm run build:umd && npm run build:comp",
+    "build": "node bin/entry.js && npm run clean && npm run build:commom && npm run build:umd && npm run build:comp",
     "new": "node bin/new.js",
     "dev": "node build/dev.js",
     "lint": "eslint src/ packages/ build/",
